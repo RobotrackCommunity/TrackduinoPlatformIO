@@ -15,7 +15,7 @@ BOARD_ID: str = "trackduino"
 BOARD_VENDOR: str = "Brain Development"
 
 EXCLUDED_LIBRARIES: list[tuple[str, str]] = [  # ("Library Folder Name", "Excluding reason")
-    ("RobotrackIoTClient", "Just broken for PIO, if you fix it, make pull request (Linking fail)"),
+    ("RobotrackIoTClient", "https://github.com/RobotrackCommunity/TrackduinoPlatformIO/issues/1"),
     ("Adafruit_Circuit_Playground", f"Fully broken for {BOARD_NAME}"),
     ("Robot_Control", f"Fully broken for {BOARD_NAME}"),
     ("Esplora", f"Fully broken for {BOARD_NAME}"),
