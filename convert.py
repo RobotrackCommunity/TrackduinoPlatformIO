@@ -27,7 +27,7 @@ EXCLUDED_LIBRARIES: list[tuple[str, str]] = [  # ("Library Folder Name", "Exclud
 # PIO info
 PACKAGE_NAME: str = f"framework-arduino-avr-{BOARD_ID}"
 BOARD_JSON: dict = {
-    "name": "Trackduino",
+    "name": BOARD_NAME,
     "url": BOARD_INFO_URL,
     "vendor": BOARD_VENDOR,
     "build": {
