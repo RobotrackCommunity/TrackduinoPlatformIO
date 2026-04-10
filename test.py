@@ -488,7 +488,7 @@ def _test():
         result_text = f"{STR_SPEC_GREEN_TEXT}PASSED{STR_SPEC_RESET_TEXT}"
 
     print(
-        f"\nTest result: {result_text} <{total_count} total, {skipped_count} skipped, {passed_pio_count} passed*/{passed_count} passed{f', {failed_count} failed' if failed_count > 0 else ''}>")
+        f"\nTest result: {result_text} <{total_count} total, {skipped_count} skipped, {passed_pio_count} passed*/{passed_count} passed{f', {failed_count} failed' if failed_count > 0 else ''}, {len(excluded_libraries)} excluded>")
     if not is_win32:
         shutil.rmtree(master_prefix, ignore_errors=True)
     return is_passed

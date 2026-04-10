@@ -18,7 +18,7 @@ python3 convert.py -p "path/to/robotrackIde"
 System requirements:
 
 - Python: 3.8+
-- OS: Any (Linux and MacOS request `wine` for self-test, or skip it by `-s` argument.)
+- OS: Any (Linux and macOS request `wine` for self-test, or skip it by `-s` argument.)
 - RoboTrack IDE (installed or just program folder)
 
 ### Excluded Libraries
