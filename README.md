@@ -23,15 +23,15 @@ System requirements:
 
 ### Excluded Libraries
 
-| Library Name                | Reason                      |
-|-----------------------------|-----------------------------|
-| RobotrackIoTClient          | #1                          |
-| Adafruit_Circuit_Playground | Fully broken for Trackduino |
-| Robot_Control               | Fully broken for Trackduino |
-| Esplora                     | Fully broken for Trackduino |
-| GSM                         | Fully broken for Trackduino |
-| Servo                       | Fully broken for Trackduino |
-| Firmata                     | Fully broken for Trackduino |
+| Library Name                | Reason                                                                    |
+|-----------------------------|---------------------------------------------------------------------------|
+| RobotrackIoTClient          | [#1](https://github.com/RobotrackCommunity/TrackduinoPlatformIO/issues/1) |
+| Adafruit_Circuit_Playground | Fully broken for Trackduino                                               |
+| Robot_Control               | Fully broken for Trackduino                                               |
+| Esplora                     | Fully broken for Trackduino                                               |
+| GSM                         | Fully broken for Trackduino                                               |
+| Servo                       | Fully broken for Trackduino                                               |
+| Firmata                     | Fully broken for Trackduino                                               |
 
 ## Versions table
 
