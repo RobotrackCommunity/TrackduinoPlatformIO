@@ -18,20 +18,20 @@ python3 convert.py -p "path/to/robotrackIde"
 System requirements:
 
 - Python: 3.8+
-- OS: Any (Linux and MacOS request wine for self-test, or skip it by `-s` argument.)
+- OS: Any (Linux and MacOS request `wine` for self-test, or skip it by `-s` argument.)
 - RoboTrack IDE (installed or just program folder)
 
 ### Excluded Libraries
 
-| Library Name                | Reason                                                                    |
-|-----------------------------|---------------------------------------------------------------------------|
-| RobotrackIoTClient          | [#1](https://github.com/RobotrackCommunity/TrackduinoPlatformIO/issues/1) |
-| Adafruit_Circuit_Playground | Fully broken for Trackduino                                               |
-| Robot_Control               | Fully broken for Trackduino                                               |
-| Esplora                     | Fully broken for Trackduino                                               |
-| GSM                         | Fully broken for Trackduino                                               |
-| Servo                       | Fully broken for Trackduino                                               |
-| Firmata                     | Fully broken for Trackduino                                               |
+| Library Name                | Reason                                                                          |
+|-----------------------------|---------------------------------------------------------------------------------|
+| RobotrackIoTClient          | [Issue #1](https://github.com/RobotrackCommunity/TrackduinoPlatformIO/issues/1) |
+| Adafruit_Circuit_Playground | Fully broken for Trackduino                                                     |
+| Robot_Control               | Fully broken for Trackduino                                                     |
+| Esplora                     | Fully broken for Trackduino                                                     |
+| GSM                         | Fully broken for Trackduino                                                     |
+| Servo                       | Fully broken for Trackduino                                                     |
+| Firmata                     | Fully broken for Trackduino                                                     |
 
 ## Versions table
 
